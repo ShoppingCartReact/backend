@@ -26,7 +26,7 @@ BookStack requires [Node.js](https://nodejs.org/) v6.11.0 to run.
 
 Install the dependencies and devDependencies and start the server.
 
-Please install and run the [MongoDB](https://www.mongodb.com/) server before running the app.
+Please install  MySQL before running the app.
 
 * Create database named bookstore using Mysql console.
 * Change the username and password in "config/default.json" file.
