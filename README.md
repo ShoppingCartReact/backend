@@ -1,57 +1,38 @@
-# backend
+# BookStack
 
-> product api server
+BookStack is a book store application developed using ReactJS, Redux, Express and MongoDB
 
-## About
+# Features!
 
-This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+  - A shopping cart with a dynamic badge to show the quantity of items in it.
+  - Books listing with a *"read more"* button for the description.
+  - An admin portal to add or delete with the functionality of uploading image for the book cover.
 
-## Getting Started
+### Tech
 
-Getting up and running is as easy as 1, 2, 3.
+BookStack uses a number of technologies:
 
-1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
-2. Install your dependencies
+* ReactJS - a front-end JS library
+* Redux - a predictable state container for JavaScript apps
+* Node.js - evented I/O for the backend
+* Feathers JS- fast node.js network app framework
+* MySQL - a cross-platform document-oriented database program
+* Webpack - a module bundler
+* React-Bootstrap - front-end framework for react
 
-    ```
-    cd path/to/backend; npm install
-    ```
+### Installation
 
-3. Start your app
+BookStack requires [Node.js](https://nodejs.org/) v6.11.0 to run.
 
-    ```
-    npm start
-    ```
+Install the dependencies and devDependencies and start the server.
 
-## Testing
+Please install  MySQL before running the app.
 
-Simply run `npm test` and all your tests in the `test/` directory will be run.
+* Create database named bookstore using Mysql console.
+* Change the username and password in "config/default.json" file.
 
-## Scaffolding
-
-Feathers has a powerful command line interface. Here are a few things it can do:
-
+ Then execute the following commands:
+```sh
+$ yarn install
+$ yarn start
 ```
-$ npm install -g feathers-cli             # Install Feathers CLI
-
-$ feathers generate service               # Generate a new Service
-$ feathers generate hook                  # Generate a new Hook
-$ feathers generate model                 # Generate a new Model
-$ feathers help                           # Show all commands
-```
-
-## Help
-
-For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
-
-## Changelog
-
-__0.1.0__
-
-- Initial release
-
-## License
-
-Copyright (c) 2016
-
-Licensed under the [MIT license](LICENSE).
